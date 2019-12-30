@@ -12,7 +12,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter
 public class WebStaticFileConfig extends WebMvcConfigurerAdapter {      //配置本机静态资源的访问地址
 
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
-
+        registry.addResourceHandler("/**").addResourceLocations("classpath:/public/" );
         registry.addResourceHandler("uploadFiles" + "/**").addResourceLocations("file:" + "C:/uploadFiles/" );
         super.addResourceHandlers(registry);
 

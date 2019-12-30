@@ -19,3 +19,5 @@ logging:
         mapper: debug   #mapper 层 CURD 操作Log
 uploadPath: C:/uploadFiles/  #写入硬盘路径
 folderName: uploadFiles/    #回显带上文件夹
+server:
+  port: 8888
