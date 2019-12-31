@@ -1,12 +1,15 @@
-const domain = window.location.protocol + "//" + window.location.host + "/";
-const socketDomain = "ws://"+ window.location.host +"/ws/controller/";
-//const domain = "https://zhishix11.utools.club/";
-//const socketDomain = "ws://zhishix11.utools.club/ws/controller/";
+//const domain = window.location.protocol + "//" + window.location.host + "/";
+//const socketDomain = "ws://"+ window.location.host +"/ws/controller/";
+const domain = "https://zhishix11.utools.club/";
+const socketDomain = "ws://zhishix11.utools.club/ws/controller/";
 Vue.component('chat-list', {
 	template: '#chatList',
 	props: ['list'],
 	computed: {
 		last: function() {
+			if(this.list.msgList.length == 0){
+				return
+			}
 			var i = this.list.msgList.length;
 			console.log(i);
 			console.log(this.list.msgList[i - 1]);
@@ -26,6 +29,8 @@ var vm = new Vue({
 		visible: false,
 		//搜索关键词
 		searchKW: '',
+		//搜索结果
+		searchRs: {},
 		//聊天内容列表
 		charList: [],
 		//历史聊天列表
@@ -71,6 +76,90 @@ var vm = new Vue({
 		this.getFriendList();
 	},
 	methods: {
+		//tiao到对应的聊天窗口
+		toChat(user){
+			//跳到对应的好友窗口
+			console.log(user);
+			//查找对应的聊天窗口
+			var t = this.historyChatList;
+			//遍历判断是否存在当前历史聊天
+			for (var i = 0; i < t.length; i++) {
+				if( user.userId == t[i].senderId){//如果存在
+					//跳到tab0
+					this.tabIndex = 0;
+					this.historyChatListIndex = i;
+					//将当前接受者的信息放入message
+					this.message.receiverId = user.userId;
+					return
+				}
+			}
+			var t2 = {
+				msgList:[],
+				senderId:user.userId,
+				senderUser:user,
+			}
+			t.unshift(t2);
+			//跳到tab0
+			this.tabIndex = 0;
+			this.historyChatList = t;
+			this.historyChatListIndex = 0;
+			//将当前接受者的信息放入message
+			this.message.receiverId = user.userId;
+
+		},
+		//搜索
+		search() {
+			if (this.searchKW == "") {
+				this.searchRs = {};
+			}
+			var that = this;
+			console.log("触发了搜索");
+			if (this.tabIndex == 0) { //消息列表搜索
+				var t = this.historyChatList;
+				for (var i = 0; i < t.length; i++) {
+					if(this.searchKW == t[i].senderUser.userName){
+						console.log("找到用户");
+					}
+				}
+			} else if (this.tabIndex == 1) { //好友列表搜索
+				axios({
+					url: domain + "user/userSearch/" + this.searchKW
+				}).then((res) => {
+					if (res.data.state == 400) { //没找到结果
+						that.$message.error('没有这个用户');
+					}
+					console.log(res.data);
+					that.searchRs = res.data;
+
+				})
+			}
+
+		},
+		//点击添加好友
+		addFriend(id) {
+			var that = this;
+			console.log("点击了添加好友" + id);
+			axios({
+				url: domain + "user/addFriend/" + id,
+				method: "POST"
+			}).then((res) => {
+				if (res.data.state == 200) {
+					that.$message({
+						message: '恭喜你，添加好友成功',
+						type: 'success'
+					});
+					var t = that.friendsList;
+					t.push(that.searchRs.user);
+					that.friendsList = t;
+					that.searchKW = "";
+					that.searchRs = {};
+
+				} else {
+					that.$message.error('添加失败');
+				}
+
+			})
+		},
 		//发送消息
 		send() {
 			console.log("点击了发送");
@@ -80,38 +169,26 @@ var vm = new Vue({
 				method: "POST",
 				data: that.message,
 			}).then(function(res) {
-				// console.log("发送成功");
-				// //重新生成
-				// var temp = {
-				// 	//发送内容的类型
-				// 	mType: that.message.mType,
-				// 	//发送的内容
-				// 	mContent: that.message.mContent,
-				// 	//接受者的id
-				// 	mReceiverId: that.message.receiverId,
-				// 	//发送人的id
-				// 	mSenderId: that.message.senderId,
-				// };
-				// var t2 = that.charList;
-				// that.charList = t2.push(temp);
+				console.log("发送成功");
+				//重新生成
+				var temp = {
+					//发送内容的类型
+					mType: that.message.mType,
+					//发送的内容
+					mContent: that.message.mContent,
+					//接受者的id
+					mReceiverId: that.message.receiverId,
+					//发送人的id
+					mSenderId: that.message.senderId,
+					mCreateTime: that.isGetDate(),
+				};
+				console.log(that.isGetDate());
+				var t2 = that.charList;
+				t2.msgList.push(temp);
+				that.charList = t2;
+				that.message.mContent = '';
 			})
-			console.log("发送成功");
-			//重新生成
-			var temp = {
-				//发送内容的类型
-				mType: that.message.mType,
-				//发送的内容
-				mContent: that.message.mContent,
-				//接受者的id
-				mReceiverId: that.message.receiverId,
-				//发送人的id
-				mSenderId: that.message.senderId,
-				mCreateTime: that.isGetDate(),
-			};
-			console.log(that.isGetDate());
-			var t2 = that.charList;
-			t2.msgList.push(temp);
-			that.charList = t2;
+
 		},
 		//重本地缓存中获取当前登录信息
 		getUserInfoForStorage() {
@@ -197,7 +274,8 @@ var vm = new Vue({
 				this.logOut();
 
 			}
-			this.tabIndex = index
+			this.tabIndex = index;
+			this.searchKW = "";
 		},
 		logOut() {
 			axios({

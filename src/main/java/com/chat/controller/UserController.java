@@ -129,7 +129,7 @@ public class UserController {
             Friend getFriend = friendMapper.findFriend(friend);     //执行sql语句查询数据
 
             //true  是登录用户好友 false   不是登录用户好友
-            return (getFriend != null) ? new UserVO(200, "成功", true, getUser) : new UserVO(400, "失败", false, getUser);
+            return (getFriend != null) ? new UserVO(200, "成功", true, getUser) : new UserVO(200, "失败", false, getUser);
 
         } else {
 
