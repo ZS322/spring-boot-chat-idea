@@ -6,6 +6,7 @@ import com.chat.model.vo.MsgVO;
 import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;
+import org.apache.ibatis.annotations.Update;
 
 import java.util.List;
 
@@ -16,6 +17,8 @@ public interface MsgMapper extends BaseMapper<Msg> {
     List<Msg> contentMsg(@Param("senderId")Integer senderId,@Param("userId")Integer userId);
 
 
+    @Update("update set m_Identity=0 where m_senderid=#{senderId} and m_receiverid=#{receiverId}")
+    int updateByIdentity(@Param("senderId")Integer senderId ,@Param("receiverId")Integer receiverId);
 
 
 }

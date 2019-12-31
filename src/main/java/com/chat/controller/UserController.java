@@ -152,7 +152,15 @@ public class UserController {
 
         friend.setfBuser(b_user);       //当前对象好友的ID
 
+        Friend friend2 = new Friend();
+
+        friend2.setfCuruser(b_user);
+
+        friend2.setfBuser(user1.getUserId());
+
         int insert = friendMapper.insert(friend);   //执行sql语句插入数据
+
+        int insert2 = friendMapper.insert(friend2);   //执行sql语句插入数据
 
         Map<String, Object> result = new HashMap<>();   //构建map接口
 
@@ -161,9 +169,8 @@ public class UserController {
         WebSocketServer.SendMessage(session, "请求添加好友成功");
 
         //返回成功/失败消息
-        return (insert > 0) ? new UserDTO(200, "添加成功", result) : new UserDTO(400, "添加失败", null);
+        return (insert > 0 && insert2 > 0) ? new UserDTO(200, "添加成功", result) : new UserDTO(400, "添加失败", null);
     }
-
 
 
 

@@ -12,6 +12,7 @@ import javax.servlet.http.HttpSession;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 @CrossOrigin(origins = "*")
 @RestController
@@ -75,6 +76,23 @@ public class MsgController {
         return new MsgUtil(200, "查询成功", contentMsg);  //返回成功的消息
 
     }
+
+
+    @PostMapping("/updateByIdentity")
+    public MsgUtil updateByIdentity(@RequestBody Map<String, Object> map, HttpSession uSession) {
+
+        Object sender = map.get("m_senderid");
+
+        User user = (User) uSession.getAttribute("user");   //获取当前登录的用户
+
+        int rows = msgMapper.updateByIdentity(Integer.parseInt((String) sender), user.getUserId());
+
+        System.out.println(rows);
+
+        return (rows > 0) ? new MsgUtil(200, "修改成功", null) : new MsgUtil(400, "修改失败", null);
+
+    }
+
 //
 //    //    //无需返回值
 //    public int insertTo(MsgVO msgVO) {  //接收msg  对象参数
