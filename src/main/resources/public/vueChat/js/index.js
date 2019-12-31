@@ -77,7 +77,7 @@ var vm = new Vue({
 		//选择表情
 		selectIcon(index) {
 			//构造追加文字 <:表情图名:>
-			var str = "<:emo_" + index + ".gif:>"
+			var str = "<:emo_" + index + ":>"
 			var t = this.message.mContent;
 			t += str;
 			this.message.mContent = t;
