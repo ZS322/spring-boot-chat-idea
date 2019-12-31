@@ -1,13 +1,13 @@
-//const domain = window.location.protocol + "//" + window.location.host + "/";
-//const socketDomain = "ws://"+ window.location.host +"/ws/controller/";
-const domain = "https://zhishix11.utools.club/";
-const socketDomain = "ws://zhishix11.utools.club/ws/controller/";
+const domain = window.location.protocol + "//" + window.location.host + "/";
+const socketDomain = "ws://"+ window.location.host +"/ws/controller/";
+//const domain = "https://zhishix11.utools.club/";
+//const socketDomain = "ws://zhishix11.utools.club/ws/controller/";
 Vue.component('chat-list', {
 	template: '#chatList',
 	props: ['list'],
 	computed: {
 		last: function() {
-			if(this.list.msgList.length == 0){
+			if (this.list.msgList.length == 0) {
 				return
 			}
 			var i = this.list.msgList.length;
@@ -25,8 +25,6 @@ Vue.component('bubble-box', {
 var vm = new Vue({
 	el: '#app',
 	data: {
-		//表情弹窗
-		visible: false,
 		//搜索关键词
 		searchKW: '',
 		//搜索结果
@@ -76,27 +74,37 @@ var vm = new Vue({
 		this.getFriendList();
 	},
 	methods: {
+		//选择表情
+		selectIcon(index) {
+			//构造追加文字 <:表情图名:>
+			var str = "<:emo_" + index + ".gif:>"
+			var t = this.message.mContent;
+			t += str;
+			this.message.mContent = t;
+		},
+
 		//tiao到对应的聊天窗口
-		toChat(user){
+		toChat(user) {
 			//跳到对应的好友窗口
 			console.log(user);
 			//查找对应的聊天窗口
 			var t = this.historyChatList;
 			//遍历判断是否存在当前历史聊天
 			for (var i = 0; i < t.length; i++) {
-				if( user.userId == t[i].senderId){//如果存在
+				if (user.userId == t[i].senderId) { //如果存在
 					//跳到tab0
 					this.tabIndex = 0;
 					this.historyChatListIndex = i;
 					//将当前接受者的信息放入message
 					this.message.receiverId = user.userId;
+					this.searchRs = {};
 					return
 				}
 			}
 			var t2 = {
-				msgList:[],
-				senderId:user.userId,
-				senderUser:user,
+				msgList: [],
+				senderId: user.userId,
+				senderUser: user,
 			}
 			t.unshift(t2);
 			//跳到tab0
@@ -105,7 +113,12 @@ var vm = new Vue({
 			this.historyChatListIndex = 0;
 			//将当前接受者的信息放入message
 			this.message.receiverId = user.userId;
+			this.searchRs = {};
 
+		},
+		toSearch() {
+			this.tabIndex = 1;
+			this.historyChatListIndex = -1;
 		},
 		//搜索
 		search() {
@@ -114,10 +127,10 @@ var vm = new Vue({
 			}
 			var that = this;
 			console.log("触发了搜索");
-			if (this.tabIndex == 0) { //消息列表搜索
+			if (this.tabIndex == 0) { //消息列表搜索,取消原定功能,不写了
 				var t = this.historyChatList;
 				for (var i = 0; i < t.length; i++) {
-					if(this.searchKW == t[i].senderUser.userName){
+					if (this.searchKW == t[i].senderUser.userName) {
 						console.log("找到用户");
 					}
 				}
@@ -291,18 +304,43 @@ var vm = new Vue({
 			var Socket = new WebSocket(socketDomain + this.userInfo.userId);
 			//连接打开事件
 			Socket.onopen = function() {
-				//成功则提示登录成功
-				// that.$notify({
-				// 	title: '登录成功',
-				// 	message: '赶紧开始聊起来吧!',
-				// 	type: 'success'
-				// });
 				console.log("Socket 已打开");
 				//Socket.send("消息发送测试(From Client)");
 			};
 			//收到消息事件
 			Socket.onmessage = function(msg) {
 				console.log(msg.data);
+				if (msg.data == "连接成功") return;
+				var m = JSON.parse(msg.data);
+				//判段是否为当前列表中的有的
+				var list = that.historyChatList;
+				for (var i = 0; i < list.length; i++) {
+					if ( list[i].senderId == m.senderId) { //当前会话存在,追加数组
+						list[i].msgList.push(m);
+						that.historyChatList = list;
+						that.$notify.info({
+							title: '新消息提示',
+							message: list[i].senderUser.userName + '给您发了一条消息'
+						});
+						return;
+					}
+				}
+
+				//如果没用就构造并追加到历史消息
+				var t = {
+					msgList: [],
+					senderId: '',
+					senderUser: '',
+				};
+				t.senderId = m.senderId;
+				t.msgList[0] = m;
+				t.senderUser = JSON.parse(sessionStorage.getItem(t.senderId));
+				list.unshift(t);
+				that.historyChatList = list;
+				that.$notify.info({
+					title: '新消息提示',
+					message: t.senderUser.userName + '给您发了一条消息'
+				});
 			};
 			//连接关闭事件
 			Socket.onclose = function() {

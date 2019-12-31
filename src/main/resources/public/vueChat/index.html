@@ -32,7 +32,7 @@
 				<div class="grid-content bg-purple-light list">
 					<!-- 搜索 -->
 					<div style="height:60px ;padding-top: 20px;padding-left: 15px;">
-						<el-input style="width: 90%;" placeholder="搜索" suffix-icon="el-icon-search" v-model="searchKW" @change="search"></el-input>
+						<el-input style="width: 90%;" placeholder="搜索" suffix-icon="el-icon-search" v-model="searchKW" @change="search" @focus="toSearch"></el-input>
 					</div>
 					<!-- 聊天列表 -->
 					<chat-list v-for='(item,index) in historyChatList' :list="item" :key="index" @click.native="changeHList(index)" :class="historyChatListIndex == index ? 'chatListItem-active' : ''" v-if="tabIndex == 0"></chat-list>
@@ -50,7 +50,7 @@
 						</el-row>
 					</div>
 					<!-- 查找好友结果， -->
-					<div class="chatListItem" v-if="tabIndex == 1 && searchRs.user">
+					<div class="chatListItem" v-if="tabIndex == 1 && searchRs.user" @click="toChat(searchRs.user)">
 						<el-row>
 							<el-col :span="5">
 								<el-avatar :src="searchRs.user.userImgUrl"></el-avatar>
@@ -81,9 +81,16 @@
 					</el-row>
 					<!-- 聊天底部输入框 -->
 					<el-row  style="height: 140px;">
+						<!-- 弹窗 -->
+
 						<!-- 表情,图片按钮 -->
 						<el-row style="height: 30px;margin-left: 15px;">
-							<i class="el-icon-magic-stick"></i>
+							<el-tooltip class="item" effect="dark"  placement="top-start">
+								<div slot="content" style="width: 300px;">
+									<img :src="'img/emo_' +(index + 1) +'.gif'" width="25" height="25" v-for="(item,index) in 60" @click="selectIcon(index + 1)"/>
+								</div>
+								<i class="el-icon-magic-stick"></i>
+							</el-tooltip>
 							<i class="el-icon-picture-outline"></i>
 							<i class="el-icon-chat-line-round"></i>
 						</el-row>

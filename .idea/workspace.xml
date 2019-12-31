@@ -1,10 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0e4c63fe-ce2f-46e2-8a54-e29bf3983424" name="Default Changelist" comment="">
+    <list default="true" id="0e4c63fe-ce2f-46e2-8a54-e29bf3983424" name="Default Changelist" comment="修改查找用户状态">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/vueChat/img/emo_1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/vueChat/img/emo_10.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/vueChat/img/emo_11.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/vueChat/img/emo_12.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/vueChat/img/emo_13.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/vueChat/img/emo_14.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/vueChat/img/emo_15.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/vueChat/img/emo_16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/vueChat/img/emo_17.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/vueChat/img/emo_18.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/vueChat/img/emo_19.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/vueChat/img/emo_2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/vueChat/img/emo_20.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/vueChat/img/emo_21.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/vueChat/img/emo_22.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/vueChat/img/emo_23.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/vueChat/img/emo_24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/vueChat/img/emo_25.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/vueChat/img/emo_26.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/vueChat/img/emo_27.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/vueChat/img/emo_28.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/vueChat/img/emo_29.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/vueChat/img/emo_3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/vueChat/img/emo_30.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/vueChat/img/emo_31.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/vueChat/img/emo_32.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/vueChat/img/emo_33.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/vueChat/img/emo_34.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/vueChat/img/emo_35.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/vueChat/img/emo_36.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/vueChat/img/emo_37.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/vueChat/img/emo_38.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/vueChat/img/emo_39.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/vueChat/img/emo_4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/vueChat/img/emo_40.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/vueChat/img/emo_41.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/vueChat/img/emo_42.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/vueChat/img/emo_43.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/vueChat/img/emo_44.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/vueChat/img/emo_45.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/vueChat/img/emo_46.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/vueChat/img/emo_47.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/vueChat/img/emo_48.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/vueChat/img/emo_49.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/vueChat/img/emo_5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/vueChat/img/emo_50.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/vueChat/img/emo_51.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/vueChat/img/emo_52.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/vueChat/img/emo_53.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/vueChat/img/emo_54.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/vueChat/img/emo_55.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/vueChat/img/emo_56.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/vueChat/img/emo_57.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/vueChat/img/emo_58.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/vueChat/img/emo_59.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/vueChat/img/emo_6.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/vueChat/img/emo_60.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/vueChat/img/emo_7.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/vueChat/img/emo_8.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/vueChat/img/emo_9.gif" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chat/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chat/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/vueChat/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/vueChat/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/public/vueChat/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/vueChat/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/vueChat/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/vueChat/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/META-INF/chat.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/chat/config/WebStaticFileConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/chat/config/WebStaticFileConfig.class" afterDir="false" />
@@ -49,15 +110,34 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/public/vueChat/js/vue.js">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/chat/controller/WebSocketController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="193">
+              <caret line="37" column="32" lean-forward="true" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/chat/controller/FriendController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+            <state relative-caret-position="220">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/chat/controller/MsgController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -66,7 +146,43 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/chat/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="177">
-              <caret line="133" column="16" lean-forward="true" selection-start-line="133" selection-start-column="16" selection-end-line="133" selection-end-column="16" />
+              <caret line="115" lean-forward="true" selection-start-line="115" selection-end-line="115" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/chat/service/WebSocketServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="141">
+              <caret line="90" column="41" selection-start-line="90" selection-start-column="41" selection-end-line="90" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/chat/model/vo/MsgVO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-136">
+              <caret line="7" column="28" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="28" />
+              <folding>
+                <element signature="e#237#238#0" expanded="true" />
+                <element signature="e#268#269#0" expanded="true" />
+                <element signature="e#317#318#0" expanded="true" />
+                <element signature="e#357#358#0" expanded="true" />
+                <element signature="e#395#396#0" expanded="true" />
+                <element signature="e#428#429#0" expanded="true" />
+                <element signature="e#481#482#0" expanded="true" />
+                <element signature="e#525#526#0" expanded="true" />
+                <element signature="e#560#561#0" expanded="true" />
+                <element signature="e#591#592#0" expanded="true" />
+                <element signature="e#639#640#0" expanded="true" />
+                <element signature="e#679#680#0" expanded="true" />
+                <element signature="e#712#713#0" expanded="true" />
+                <element signature="e#740#741#0" expanded="true" />
+                <element signature="e#783#784#0" expanded="true" />
+                <element signature="e#817#818#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -74,51 +190,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/public/vueChat/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="345" selection-start-line="345" selection-end-line="345" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/public/vueChat/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="180" selection-start-line="180" selection-end-line="180" />
-              <folding>
-                <element signature="n#style#0;n#el-col#1;n#el-row#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#el-col#1;n#el-row#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#el-input#0;n#div#0;n#div#0;n#el-col#1;n#el-row#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#el-col#1;n#el-row#0;n#div#1;n#div#0;n#el-col#1;n#el-row#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#el-col#1;n#el-row#0;n#div#2;n#div#0;n#el-col#1;n#el-row#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#el-col#2;n#el-row#0;n#div#2;n#div#0;n#el-col#1;n#el-row#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#el-row#0;n#div#0;n#el-col#2;n#el-row#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#0;n#el-row#0;n#div#0;n#el-col#2;n#el-row#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#el-row#1;n#div#0;n#el-col#2;n#el-row#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#el-row#2;n#div#0;n#el-col#2;n#el-row#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#el-row#0;n#el-row#2;n#div#0;n#el-col#2;n#el-row#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="390">
+              <caret line="383" selection-start-line="383" selection-end-line="383" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/chat/ChatApplication.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/public/vueChat/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+            <state relative-caret-position="152">
+              <caret line="142" column="14" lean-forward="true" selection-start-line="142" selection-start-column="14" selection-end-line="142" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -187,10 +269,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/chat/model/entity/Msg.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/src/main/java/com/chat/config/WebStaticFileConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/public/vueChat/login.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/chat/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/public/vueChat/js/index.js" />
         <option value="$PROJECT_DIR$/src/main/resources/public/vueChat/index.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/public/vueChat/js/index.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/public/vueChat/login.html" />
       </list>
     </option>
   </component>
@@ -228,7 +310,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -271,35 +353,11 @@
               <item name="chat" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="chat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="chat" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="chat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="chat" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="vueChat" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="chat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="chat" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="vueChat" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -311,7 +369,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/public" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/public/vueChat/img" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -325,11 +383,11 @@
       <recent name="com.chat.mapper" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\IdeaProject\chat\src\main\resources\public\vueChat\img" />
       <recent name="F:\IdeaProject\chat\src\main\resources\public" />
       <recent name="E:\software document\spring\chat\src\main\java\com\chat" />
       <recent name="E:\software document\spring\chat\src\main\java\com\chat\controller" />
       <recent name="E:\software document\spring\chat\src\main\java\com\chat\model\vo" />
-      <recent name="E:\software document\spring\chat\src\main\java\com\chat\model\entity" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -413,7 +471,8 @@
       <workItem from="1577705460308" duration="171000" />
       <workItem from="1577710241605" duration="1210000" />
       <workItem from="1577711764194" duration="2923000" />
-      <workItem from="1577756208110" duration="1351000" />
+      <workItem from="1577756208110" duration="1756000" />
+      <workItem from="1577777257977" duration="5218000" />
     </task>
     <task id="LOCAL-00001" summary="增加静态文件">
       <created>1577711994661</created>
@@ -429,11 +488,18 @@
       <option name="project" value="LOCAL" />
       <updated>1577712765110</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="修改查找用户状态">
+      <created>1577759281437</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1577759281437</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="134560000" />
+    <option name="totallyTimeSpent" value="140183000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -445,7 +511,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="top" id="Bean Validation" order="0" side_tool="true" weight="0.3291714" />
@@ -455,23 +521,23 @@
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info id="Image Layers" order="5" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.30181542" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.30490404" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Java Enterprise" order="0" weight="0.32893288" />
-      <window_info anchor="bottom" id="Version Control" order="1" weight="0.456446" />
+      <window_info anchor="bottom" id="Version Control" order="1" weight="0.36236933" />
       <window_info anchor="bottom" id="TODO" order="2" weight="0.32844242" />
       <window_info anchor="bottom" id="Spring" order="3" weight="0.32887974" />
-      <window_info anchor="bottom" id="Terminal" order="4" weight="0.32893288" />
+      <window_info anchor="bottom" id="Terminal" order="4" weight="0.32752612" />
       <window_info anchor="bottom" id="Database Changes" order="5" />
       <window_info anchor="bottom" id="Event Log" order="6" sideWeight="0.500499" side_tool="true" weight="0.21307778" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="8" />
       <window_info anchor="bottom" id="Find" order="9" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="10" sideWeight="0.499501" visible="true" weight="0.4651568" />
+      <window_info anchor="bottom" id="Run" order="10" sideWeight="0.499501" visible="true" weight="0.4650113" />
       <window_info anchor="bottom" id="Debug" order="11" weight="0.24460432" />
       <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="14" weight="0.4334086" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.43115124" />
       <window_info anchor="right" id="Theme Preview" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Palette&#9;" order="2" />
@@ -564,7 +630,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="增加静态文件" />
     <MESSAGE value="放行静态页面" />
-    <option name="LAST_COMMIT_MESSAGE" value="放行静态页面" />
+    <MESSAGE value="修改查找用户状态" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改查找用户状态" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/chat/controller/LoginController.java" />
@@ -721,13 +788,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chat/mapper/MsgMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="31" lean-forward="true" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/chat/model/vo/UserVO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -746,10 +806,125 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/chat/utils/InsertUtil.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chat/controller/MainController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chat/config/WebSocketConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="e#335#336#0" expanded="true" />
+            <element signature="e#410#411#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chat/model/entity/Friend.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="51" column="4" selection-start-line="51" selection-start-column="4" selection-end-line="51" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chat/model/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="472">
+          <caret line="60" selection-start-line="60" selection-end-line="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chat/model/entity/Msg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="58" column="1" selection-start-line="58" selection-start-column="1" selection-end-line="58" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chat/config/WebStaticFileConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chat/controller/AvatarController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-273">
+          <caret line="39" column="13" lean-forward="true" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/public/vueChat/js/vue.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chat/mapper/MsgMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chat/ChatApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chat/service/WebSocketServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="90" column="41" selection-start-line="90" selection-start-column="41" selection-end-line="90" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/public/vueChat/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3111">
+          <caret line="183" column="10" lean-forward="true" selection-start-line="183" selection-start-column="10" selection-end-line="183" selection-end-column="10" />
+          <folding>
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#el-col#1;n#el-row#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-input#0;n#div#0;n#div#0;n#el-col#1;n#el-row#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#div#1;n#div#0;n#el-col#1;n#el-row#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#div#2;n#div#0;n#el-col#1;n#el-row#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-col#2;n#el-row#0;n#div#2;n#div#0;n#el-col#1;n#el-row#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#div#0;n#el-col#2;n#el-row#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#el-row#0;n#div#0;n#el-col#2;n#el-row#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#div#0;n#el-col#2;n#el-row#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#div#0;n#el-col#2;n#el-row#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#0;n#el-row#2;n#div#0;n#el-col#2;n#el-row#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#el-tooltip#0;n#el-row#0;n#el-row#2;n#div#0;n#el-col#2;n#el-row#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-row#2;n#div#0;n#el-col#2;n#el-row#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#textarea#0;n#el-row#1;n#el-row#2;n#div#0;n#el-col#2;n#el-row#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#2;n#el-row#2;n#div#0;n#el-col#2;n#el-row#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#el-col#3;n#el-row#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-row#1;n#el-col#1;n#el-row#0;n#div#0;n#template#2;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#el-col#0;n#el-row#0;n#div#0;n#div#0;n#template#3;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-avatar#0;n#el-col#1;n#el-row#0;n#div#0;n#div#0;n#template#3;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-avatar#0;n#el-col#0;n#el-row#0;n#div#1;n#div#0;n#template#3;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#el-col#1;n#el-row#0;n#div#1;n#div#0;n#template#3;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-col#0;n#el-row#0;n#div#0;n#template#3;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/chat/model/vo/MsgVO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="9" lean-forward="true" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+        <state relative-caret-position="-136">
+          <caret line="7" column="28" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="28" />
           <folding>
             <element signature="e#237#238#0" expanded="true" />
             <element signature="e#268#269#0" expanded="true" />
@@ -771,147 +946,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chat/controller/MainController.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chat/config/WebSocketConfig.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/public/vueChat/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="e#335#336#0" expanded="true" />
-            <element signature="e#410#411#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chat/controller/AvatarController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="38" column="41" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chat/model/entity/Friend.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="51" column="4" selection-start-line="51" selection-start-column="4" selection-end-line="51" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chat/model/entity/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="60" selection-start-line="60" selection-end-line="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chat/service/WebSocketServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="93" lean-forward="true" selection-start-line="93" selection-end-line="93" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chat/controller/WebSocketController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="722">
-          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chat/model/entity/Msg.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="58" column="1" selection-start-line="58" selection-start-column="1" selection-end-line="58" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chat/controller/MsgController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="390">
+          <caret line="383" selection-start-line="383" selection-end-line="383" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/public/vueChat/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="32" column="10" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
+        <state relative-caret-position="152">
+          <caret line="142" column="14" lean-forward="true" selection-start-line="142" selection-start-column="14" selection-end-line="142" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chat/config/WebStaticFileConfig.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chat/controller/WebSocketController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+        <state relative-caret-position="193">
+          <caret line="37" column="32" lean-forward="true" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/public/vueChat/js/vue.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chat/controller/FriendController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chat/ChatApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/chat/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="177">
-          <caret line="133" column="16" lean-forward="true" selection-start-line="133" selection-start-column="16" selection-end-line="133" selection-end-column="16" />
+          <caret line="115" lean-forward="true" selection-start-line="115" selection-end-line="115" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/public/vueChat/js/index.js">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chat/controller/FriendController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="345" selection-start-line="345" selection-end-line="345" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state relative-caret-position="220">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/public/vueChat/index.html">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chat/controller/MsgController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="180" selection-start-line="180" selection-end-line="180" />
+        <state relative-caret-position="272">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
           <folding>
-            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#el-col#1;n#el-row#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-input#0;n#div#0;n#div#0;n#el-col#1;n#el-row#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#div#1;n#div#0;n#el-col#1;n#el-row#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-col#1;n#el-row#0;n#div#2;n#div#0;n#el-col#1;n#el-row#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-col#2;n#el-row#0;n#div#2;n#div#0;n#el-col#1;n#el-row#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-row#0;n#div#0;n#el-col#2;n#el-row#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#el-row#0;n#div#0;n#el-col#2;n#el-row#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-row#1;n#div#0;n#el-col#2;n#el-row#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-row#2;n#div#0;n#el-col#2;n#el-row#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-row#0;n#el-row#2;n#div#0;n#el-col#2;n#el-row#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
