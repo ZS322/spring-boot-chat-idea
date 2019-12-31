@@ -34,7 +34,6 @@ public class WebSocketServer {
      */
     @OnOpen
     public void onOpen(@PathParam("userId") String userId, Session session) {
-
         map.put(userId, session);
         session1 = map.get(userId);
         SessionSet.add(session1);
@@ -92,19 +91,8 @@ public class WebSocketServer {
 
         Session session = null;
 
-        for (Session session2 : SessionSet) {
-
-            for (Map.Entry<String, Session> sessionEntry : map.entrySet()) {
-
-                if (msgVO.getReceiverId().toString().equals(sessionEntry.getKey())) {
-
-                    session = session2;
-
-                    break;
-                }
-
-            }
-
+        if( map.containsKey(msgVO.getReceiverId().toString())){//如果map有这个key
+            session = map.get(msgVO.getReceiverId().toString());
         }
 
         if (session != null) {     //用户存在/在线
